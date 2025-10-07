@@ -14,14 +14,16 @@ else{
 }
 console.log("Done")
 // HomeWork - Explore switch statement and write a basic program in the comments
-let age = 16;
-switch (age) {
-  case 16:
-    console.log('No entry');
+// let age = 16;
+// switch (age) {
+//   case 16:
+//     console.log('No entry');
     
-    break;
+//     break;
 
-  default:
-    console.log('Welcome');
-    break;
-}
+//   default:
+//     console.log('Welcome');
+//     break;
+// }
+//trinary operator
+console.log("you can" ,a <18?"not drive":"drive");
