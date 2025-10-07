@@ -14,4 +14,14 @@ else{
 }
 console.log("Done")
 // HomeWork - Explore switch statement and write a basic program in the comments
-console.log("You can", (a<18? "not drive" :"drive"))
+let age = 16;
+switch (age) {
+  case 16:
+    console.log('No entry');
+    
+    break;
+
+  default:
+    console.log('Welcome');
+    break;
+}
