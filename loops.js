@@ -30,3 +30,25 @@ for (let b of "Harry") {
   console.log(b)
 }
 */
+
+//WHILE LOOPS
+// while loop
+/*
+let n1 = prompt("Enter the value of n1")
+n1 = Number.parseInt(n1)
+
+let i = 0;
+while(i<n1){
+  console.log(i)
+  i++;
+}
+*/
+// while loop
+let n1 = prompt("Enter the value of n1")
+n1 = Number.parseInt(n1)
+
+let i = 10;
+do{
+  console.log(i)
+  i++;
+}while (i < n1) 
